@@ -1,0 +1,401 @@
+/*
+Theme Name: image_lab
+Theme URI: http://imagelab.com
+Author: mi-chan
+Author URI: http://imagelab.com
+Description: bbb
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@charset "utf-8";
+
+body{
+    /*font-size:62.5%;*/
+    font-family:'Helvetica Neue', Helvetica, Arial, YuGothic, 'Yu Gothic', 游ゴシック体, '游ゴシック', 'ヒラギノ角ゴ ProN W3', 'Hiragino         Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'MS ゴシック', 'MS Gothic', sans-serif;
+}
+
+footer {
+  background-color: #F1F1F1;
+}
+
+dl {
+  margin-left: 100px;
+}
+
+dd a {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #0a6ebd;
+    text-decoration: none;
+}
+
+header h1 {
+    position: absolute;
+    width: 100%;
+    font-weight: 700;
+    font-size: 110px;
+    text-align: center;
+    height: 120px;
+    line-height: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    font-family: 'Fredericka the Great', cursive;
+    -webkit-font-smoothing: antialiased;
+}
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+
+.text-left{
+    text-align:left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.center {
+  max-width:600px;
+  margin: 0 auto;
+}
+
+/*---------------------
+title module
+----------------------*/
+.site-title{
+    float:left;
+}
+
+.section-title{
+    margin-bottom: 21px;
+    font-size:21px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.section-title-ja{
+    display: block;
+    margin-top:21px;
+    font-size:16px;
+}
+.section-title__pink{
+    color:pink;
+    font-size: 50px;
+}
+
+.section-title__white{
+    color:white;
+    font-size: 50px;
+}
+
+.section-title__gray{
+    color: #545454;
+    font-size: 50px;
+}
+
+.section-title__black{
+    color: #333;
+    font-size: 50px;
+}
+.contents-heading{
+    padding: 80px 0 40px;
+}
+.bg-yellow{
+    background-color:#ffd61a;
+}
+.info{
+  background-color: #A5ECFA;
+}
+.blog{
+  background-color: #7BDCEF;
+}
+.teacher{
+  background-color: #FFF;
+}
+.access{
+  background-color: #F1F1F1;
+}
+.cource-title{
+    margin-bottom: 27px;
+    font-size: 18px;
+}
+.list-header{
+    float:right;
+}
+.list-header >li{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.list-feature{
+    display: table;
+}
+
+.list-feature>li{
+    display: table-cell;
+    padding:0 40px;
+}
+.list-feature>li:first-child{
+    padding:0 40px 0 10px;
+}
+.list-feature>li:last-child{
+    padding:0 10px 0 40px;
+}
+.list-gallery{
+    width:700px;
+    margin: 0 auto;
+}
+
+.list-gallery>li{
+    float:left;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+
+.list-gallery .no-white-space{
+    margin-right: 0;
+}
+.list-footer {
+    margin-top:72px;
+}
+
+.list-footer >li{
+    width:300px;
+    float:left;
+    margin-right:20px;
+    padding:47px 0;
+    background:#fff;
+}
+.list-footer >li.maps{
+    padding:0;
+}
+.header{
+    padding:24px 0;
+}
+.contents-box{
+    padding:56px 0 48px;
+}
+.page-box{
+  padding:48px 0 48px;
+}
+.feature{
+    padding:56px 0 48px;
+    background-color:#ffd61a;
+}
+.news-detail{
+    width:600px;
+    margin:80px auto 0;
+    line-height:1.5;
+}
+.footer{
+    background: rgb(123, 122, 122) ;
+}
+.main_visual{
+    padding:300px 0 0;
+    background:url(../img/bg-cheese.jpg) no-repeat;
+    background-size: cover;
+    height:460px;
+}
+.catch{
+    color:#fff;
+    font-size:60px;
+    font-family: 'ヒラギノ角ゴ ProN W6', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro';
+    font-weight: bold;
+}
+.catch-small{
+    display: block;
+    margin-top:48px;
+    font-size:36px;
+
+}
+.news-description{
+  margin-top: 10px;
+}
+.news-date{
+    float:left;
+    margin-right:60px;
+    margin-top: 10px;
+}
+.view-detail{
+    margin-top:56px;
+}
+.block-cource{
+    margin-bottom:48px;
+}
+.block-cource-lab{
+    margin-top:100px;
+}
+.cource-img{
+    float:left;
+    margin-right:180px;
+}
+.cource-img__reverse{
+    float:right;
+    margin-left:180px;
+}
+
+.cource-txt{
+    padding:36px 0 42px;
+    line-height: 1.5;
+}
+
+.cource-txt__usually{
+    float:left;
+}
+
+.cource-txt__reverse{
+    float:right;
+}
+.footer-caution{
+    margin-top: 21px;
+    text-align: left;
+    line-height: 1.5;
+    color: #fff;
+}
+input[type="text"] {
+    width:170px;
+    appearance:none;
+    -webkit-appearance:none;
+}
+select {
+    width:220px;
+    appearance:none;
+    -webkit-appearance:none;
+}
+input[type="radio"]{
+    width:11px;
+    height:11px;
+    margin-right:12px;
+}
+label{
+    display: block;
+    padding-bottom: 14px;
+    line-height: 2.5;
+}
+.form-module{
+    width:560px;
+    margin:0 auto;
+}
+.form-module td{
+    padding-bottom: 24px;
+}
+.form-text{
+    width:200px;
+}
+.entry-btn{
+    width:399px;
+    height:90px;
+    background:url(../img/btn-entry.png) no-repeat;
+    text-indent:100%;
+    white-space: nowrap;
+}
+.btn-pageTop{
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+
+}
+
+.navbar{
+}
+
+.navbar_W{
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+.navbar_B{
+  background-color: rgba(0,0,0,0.8);
+  border-color: rgba(0,0,0,0);
+}
+
+hr.colored01 {
+    margin: auto;
+    color: #333;
+    border-top: 4px double;
+    width: 100px;
+}
+
+hr.colored02 {
+    margin: auto;
+    color: white;
+    border-top: 4px double;
+    width: 100px;
+
+}
+.prof {
+  margin: auto;
+  width: 500px;
+}
+.post-content {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.posts-content {
+  font-size: 20px;
+}
+.masthead {
+    position: relative;
+    min-width: 720px;
+}
+.masthead-video {
+    z-index: 0;
+}
+.logo{
+  font-family: 'Fredericka the Great', cursive;
+  -webkit-font-smoothing: antialiased;
+}
+.space{
+  padding-bottom: 20px;
+}
+.ipl{
+  margin-top: 120px;
+  font-size: 50px;
+}
+.page-top
+{
+	margin: 0 ;
+	padding: 0 ;
+  display: none ;
+
+
+}
+
+.page-top p
+{
+	position: fixed ;
+	right: 30px ;
+	bottom: 30px ;
+}
+
+.move-page-top
+{
+	display: block ;
+	color: #34495E ;
+	line-height: 50px ;
+	text-decoration: none ;
+  font-size: 85px;
+
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+  color: #E74C3C ;
+}
